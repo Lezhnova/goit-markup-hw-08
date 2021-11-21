@@ -156,7 +156,8 @@
 }
 
 .contacts-list__link {
-  &:hover .contacts-list__icon {
+  &:hover .contacts-list__icon,
+  &:focus .contacts-list__icon {
     fill: $color-link;
   }
 }
