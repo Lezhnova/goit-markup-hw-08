@@ -18,8 +18,9 @@
   &:hover,
   &:focus {
     cursor: pointer;
-    background-color: $color-link;
     color: $color-hero;
+    background-color: $color-link;
+
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
@@ -31,14 +32,10 @@
   list-style: none;
   margin: 0;
   padding-left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   @media screen and (max-width: 480px) {
     justify-content: flex-start;
-  }
-
-  @media screen and (max-width: 768px) {
-    margin-bottom: 30px;
   }
 }
 
